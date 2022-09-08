@@ -1,0 +1,269 @@
+@media (max-width: 510px)  {
+    /*home-caption*/
+
+    .home-caption h1 {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+        line-height: 86px !important;
+        margin-top: 30px !important;
+    }
+
+    .home-caption h2  {
+        font-size: 35px !important;
+        font-weight: 600 !important;
+        line-height: 60px !important;
+    }
+
+    /*about*/
+  
+  .about-m .about-img {
+    margin-bottom: 36px;
+  }
+  
+  .about-m .about-img img {
+    margin-left: 10px;
+  }
+
+  .about-me p {
+    padding-left: 20px;
+  }
+
+
+  /*Skills-Section*/
+
+  .title-s {
+    font-size: 18px;
+    font-weight: 600;
+
+  }
+
+  .skill-m {
+    margin-right: 48px;
+  }
+  
+  
+  .skill-m span {
+    color: #4e4e4e;
+  }
+  
+  .skill-m .progress {
+    background-color: #cde1f8;
+    margin: 8px 0 16px 0;
+    border-radius: 0;
+    height: 16px;
+  }
+  
+  .skill-m .progress .progress-bar {
+    height: 16px;
+    background-color: #0078ff;
+  }
+
+  /*About-Me-Section*/
+
+  .title-left {
+    font-size: 28px;
+    font-family: 600;
+    line-height: 36px;
+    text-align: center !important;
+
+  }
+
+  .title-box-2 {
+    position: relative;
+  }
+
+
+  .brdr-about {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 17%;
+    height: 3px;
+    background-color: #0078ff;
+  }
+
+
+  /*Services-Section*/
+
+
+  
+  
+}
+
+@media (max-width: 510px) {
+  #slide {
+
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position: center center;
+    height: 400px;
+    position: relative !important;
+}
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0078ff;
+    opacity: .65;
+}
+
+.carousel-inner {
+    position: absolute !important;
+    top: 60px;
+}
+
+
+.slideimg img {
+    margin: auto !important;
+    width: 30% !important;
+    height: 100% !important;
+}
+
+.slidecaption {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slidecaption h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.slidecaption p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.carousel-indicators .button1 {
+  position: absolute;
+  top: 350px;
+  left: 45%;
+  transform: translateX(-50%);
+}
+
+
+ #work {
+
+            background-image: url(../img/post-3.jpg);
+            background-attachment: fixed;
+            background-size:cover ;
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 80rem;
+        }
+        
+        .work-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #0078ff;
+            opacity: .65;
+        }
+
+        .work-caption {
+            position: absolute;
+            top: 150px;
+        }
+
+        .work-caption i {
+            font-size: 32px;
+            line-height: 48px;
+            font-weight: 400;
+            border: rgba(205, 225, 248, 0.8) solid 10px;
+            border-radius: 50%;
+            padding: 10px 15px;         
+        }
+
+        .work-caption h2 {
+            font-size: 32px;
+            line-height: 48px;
+            font-weight: 400;
+        }
+
+        .work-caption p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+
+        .col1 {
+          position: absolute;
+          left: 8%;
+          top: 0;
+        }
+
+        .col2 {
+
+          position: absolute;
+          left: 8%;
+          top: 25%;
+        }
+
+        .col3 {
+
+          position: absolute;
+          left: 15%;
+          top: 50%;
+        }
+
+        .col4 {
+
+          position: absolute;
+          left: 15%;
+          top: 75%;
+        }
+
+        /*contact*/
+
+        #contact .about-title h4 {
+          position: relative;
+          font-size: 24px !important;
+          line-height: 38px !important;
+          font-weight: 500 !important;
+          color: #1e1e1e !important;
+      }
+
+        .portfolio-container {
+          width: 100%;
+          margin: auto;
+      }
+          /*blog*/
+      #blog .card-category-1 h6 {
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+
+    #blog .card-category h6 {
+      font-size: 9px;
+      font-weight: 500;
+      line-height: 13px;
+  }
+
+  #blog .card-category {
+    position: absolute;
+    bottom: 95% ;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    padding: 2px 2px;
+    width: 25%;
+}
+
+}
+
+
+
+
